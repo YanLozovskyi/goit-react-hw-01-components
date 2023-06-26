@@ -5,8 +5,8 @@ import transactions from '../path/transactions.json';
 
 import Section from './Section/Section';
 import Profile from './Profile/Profile';
-import StatisticsList from './Statisticslist/StatisticsList';
-import FriendsList from './FriendsList/FriendsList';
+import StatisticsList from './Statisticslist/Statisticslist';
+import FriendsList from './FriendsList/Friendslist';
 import TransactionsHistory from './TransactionHistory/TransactionHistory';
 
 export const App = () => {
