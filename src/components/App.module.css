@@ -1,0 +1,23 @@
+.profile,
+.statistics,
+.friend-list,
+.history-of-transactions {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.profile {
+  background-color: #f2f2f2;
+}
+
+.statistics {
+  background-color: #e6e6e6;
+}
+
+.friend-list {
+  background-color: #f2f2f2;
+}
+
+.history-of-transactions {
+  background-color: #e6e6e6;
+}

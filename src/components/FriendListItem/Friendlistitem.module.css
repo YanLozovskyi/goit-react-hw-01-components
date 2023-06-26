@@ -1,0 +1,30 @@
+.status {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: rgb(217, 30, 30);
+  box-shadow: 0 0 5px rgba(217, 30, 30, 0.5);
+  transition: transform 0.3s ease-in-out;
+}
+
+.status.is-online {
+  background-color: rgb(44, 203, 27);
+  box-shadow: 0 0 5px rgba(44, 203, 27, 0.5);
+}
+
+.avatar {
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #2e2f42;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.name {
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.2;
+  letter-spacing: 0.2px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}

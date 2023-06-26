@@ -9,19 +9,24 @@ import StatisticsList from './Statisticslist/Statisticslist';
 import FriendsList from './FriendsList/Friendslist';
 import TransactionsHistory from './TransactionHistory/TransactionHistory';
 
+import css from './App.module.css';
+
 export const App = () => {
   return (
     <>
-      <Section>
+      <Section title="Profile" section={css.profile}>
         <Profile user={user} />
       </Section>
-      <Section title="Upload stats">
+      <Section title="Upload stats" section={css.statistics}>
         <StatisticsList stats={stats} />
       </Section>
-      <Section>
+      <Section title="Friend list" section={css['friend-list']}>
         <FriendsList friends={friends} />
       </Section>
-      <Section>
+      <Section
+        title="History of transactions"
+        section={css['history-of-transactions']}
+      >
         <TransactionsHistory items={transactions} />
       </Section>
     </>

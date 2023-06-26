@@ -1,0 +1,22 @@
+.label {
+  margin-bottom: 10px;
+  color: #f0f0f0;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: -0.3px;
+  text-transform: uppercase;
+  opacity: 0.8;
+}
+
+.percentage {
+  color: #f0f0f0;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: -0.3px;
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #303030;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
